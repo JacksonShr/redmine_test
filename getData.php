@@ -11,7 +11,6 @@ foreach( $xml as $entry ){
 
     if( $upDate != $curDate ) continue;
 
-//    $taskText = substr( $entry->update, );
     preg_match('/\((.*?)\)/',  $entry->update, $strArr );
     var_dump($strArr);
     echo $entry->title;
