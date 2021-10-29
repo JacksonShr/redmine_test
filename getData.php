@@ -12,7 +12,7 @@ foreach( $xml as $entry ){
     if( $upDate != $curDate ) continue;
 
     preg_match('/\((.*?)\)/',  $entry->update, $strArr );
-    var_dump($strArr);
+//    var_dump($strArr);
     echo $entry->title;
 
     echo "<hr />";
